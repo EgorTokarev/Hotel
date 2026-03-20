@@ -1,0 +1,135 @@
+/* Our Rooms Section */
+.our-rooms {
+    padding: 100px 157px;
+    background-color: #f8f9fa;
+}
+
+/* Заголовок - используем ваши существующие стили */
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-label {
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'SemiBold';
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.section-label::before,
+.section-label::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 1px;
+    background-color: #666;
+}
+
+.section-label::before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.section-label::after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #333;
+    font-weight: 700;
+}
+
+.section-title span {
+    color: #ff8c42;
+}
+
+/* Сетка комнат */
+.rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+/* Карточка комнаты */
+.room-card {
+    background: white;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.room-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.room-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.room-card:hover .room-image {
+    transform: scale(1.05);
+}
+
+.room-info {
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.room-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.room-card:hover .room-name {
+    color: #ff8c42;
+}
+
+.room-price {
+    font-size: 15px;
+    color: #999;
+    margin: 0;
+}
+
+.room-price span {
+    font-weight: 300;
+}
+
+/* Адаптивность - как в вашей секции услуг */
+@media (max-width: 968px) {
+    .rooms-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .rooms-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .room-card {
+        max-width: 100%;
+    }
+}

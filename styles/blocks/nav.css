@@ -1,0 +1,68 @@
+/* Header */
+.header {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+}
+
+/* Logo */
+.logo a {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Poppins-Black';
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 413px;
+}
+
+.logo a span {
+    color: #ff8c42;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.nav__link {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    font-family: 'SemiBold';
+}
+
+.nav__link:hover,
+.nav__item--active .nav__link {
+    color: #ff8c42;
+}
+
+/* Logout Button */
+#myBtn {
+    font-family: 'SemiBold';
+    margin-left: 413px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}

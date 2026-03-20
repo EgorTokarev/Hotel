@@ -1,0 +1,86 @@
+
+.hero {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), 
+                url('/img/Welcome/1.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    margin: 363px 866px 80px 80px;
+}
+
+.hero-label {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.9;
+    font-family: 'SemiBold';
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    font-family: 'Poppins-Black';
+}
+
+.hero-title span {
+    color: #ff8c42;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    opacity: 0.9;
+    max-width: 550px;
+    font-family: 'Medium';
+}
+
+/* Hero Buttons Container */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.btn {
+    font-family: 'SemiBold';
+    display: inline-block;
+    padding: 14px 35px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-primary {
+    line-height: 1.4;
+    background-color: #ff8c42;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #e67a3a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 140, 66, 0.4);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: #333;
+    transform: translateY(-2px);
+}

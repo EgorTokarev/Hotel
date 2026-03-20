@@ -1,0 +1,44 @@
+/* Шрифты Poppins */
+@font-face {
+    font-family: "Poppins-Black";
+    src: local("Poppins-Black"),
+        url("../fonts/Poppins/Poppins-Bold.ttf") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Шрифты BodyText */
+@font-face {
+    font-family: "BodyText";
+    src: local("BodyText-Bold"),
+        url("../fonts/BodyText-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Шрифты bodytext-slimbold */
+@font-face {
+    font-family: "SemiBold";
+    src: local("SemiBold"),
+        url("../fonts/Mont-SemiBold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Шрифты Heading */
+@font-face {
+    font-family: "Heading";
+    src: local("Heading"),
+        url("../fonts/HeadingPro-Thin.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Шрифты MediumRegular */
+@font-face {
+    font-family: "Medium";
+    src: local("MediumRegular"),
+        url("../fonts/body/Body\ Text\ Regular.otf") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,28 @@
+@import url("fonts.css");
+@import url("blocks/testimonial.css");
+@import url("blocks/footer.css");
+@import url("blocks/services.css");
+@import url("blocks/our-rooms.css");
+@import url("blocks/statistic.css");
+@import url("blocks/about.css");
+@import url("blocks/welcome.css");
+@import url("blocks/nav.css");
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1550px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+

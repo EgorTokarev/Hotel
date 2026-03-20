@@ -1,0 +1,72 @@
+.statistics-section {
+    background-color: #ff8c42;
+    padding: 20px 136px;
+    color: white;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.statistic-item {
+    text-align: center;
+    flex: 1;
+    min-width: 120px;
+}
+
+.statistic-number {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    line-height: 1;
+    font-family: 'Poppins-Black';
+}
+
+.statistic-label {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+    font-family: 'Medium';
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Адаптивность */
+@media (max-width: 968px) {
+    .statistics-container {
+        gap: 30px;
+    }
+    
+    .statistic-number {
+        font-size: 36px;
+    }
+    
+    .statistic-label {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .statistics-section {
+        padding: 40px 15px;
+    }
+    
+    .statistics-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .statistic-item {
+        width: 100%;
+    }
+    
+    .statistic-number {
+        font-size: 42px;
+    }
+}
