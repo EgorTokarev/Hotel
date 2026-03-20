@@ -10,13 +10,13 @@
 }
 
 .section-label {
-    display: block;
+    display: inline-block;
     font-size: 14px;
-    color: #6c757d;
-    text-transform: uppercase;
+    color: #666;
     letter-spacing: 2px;
     margin-bottom: 10px;
     position: relative;
+    font-family: 'SemiBold';
 }
 
 .section-label::before,

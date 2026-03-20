@@ -7,10 +7,10 @@
     display: inline-block;
     font-size: 14px;
     color: #666;
-    text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
     position: relative;
+    font-family: 'SemiBold';
 }
 
 .section-label::before,

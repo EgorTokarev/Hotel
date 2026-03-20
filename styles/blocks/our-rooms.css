@@ -13,10 +13,11 @@
 .section-label {
     display: inline-block;
     font-size: 14px;
-    font-family: 'SemiBold';
+    color: #666;
     letter-spacing: 2px;
     margin-bottom: 10px;
     position: relative;
+    font-family: 'SemiBold';
 }
 
 .section-label::before,
